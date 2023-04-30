@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./logo/coca-cola-logo.svg">
-    <title>Coke Prototype | Home</title>
+    <title>Coke Prototype | Join Us</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,19 +13,38 @@
         <header>
             <a href="./index.html"><img src="./logo/coca-cola-logo.svg" alt="Coke-Logo" class="logo"></a>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="./home.html">Home</a></li>
                 <li><a href="./products.html">Products</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">The Creators</a></li>
-                <li><a href="#">Buy Now!</a></li><li><a href="./join-us.html" class="join-us">Join Us<span>+</span></a></li>
+                <li><a href="#">Buy Now!</a></li><li><a href="#" class="join-us">Join Us<span>+</span></a></li>
             </ul>
         </header>
         <div class="content">
-            <div class="textBox">
-                <h2>Total Beverage<br><span>Company Ambition</span></h2>
-                <p>We are meeting you at any point in your day with the drinks you love. From dairy to water to something with a little bit of sparkle and everything in between, our beverage options across 200+ brands bring a little magic to your day or night.</p>
-                <a href="./products.html" id="btn-products">View All products</a>
-            </div>
+            <form id="form" action="/">
+                <h1>Registration</h1>
+                <div class="input-control">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password">Password</label>
+                    <input id="password"name="password" type="password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password2">Password again</label>
+                    <input id="password2"name="password2" type="password">
+                    <div class="error"></div>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
             <div class="imgBox">
                 <img src="./images/coca-cola-original-12oz.jpg" alt="coca-cola-o" class="Coke">
             </div>
@@ -41,6 +60,6 @@
             <li><a href="#"><img src="./icons/instagram.png" alt="instagram-icon"></a></li>
         </ul>
     </section>
-    <script src="./script.js"></script>
+    <script src="./script2.js"></script>
 </body>
 </html>
