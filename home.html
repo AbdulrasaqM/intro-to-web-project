@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo/coca-cola-logo.svg">
+    <title>Coke Prototype | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="./index.html"><img src="./logo/coca-cola-logo.svg" alt="Coke-Logo" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">The Creators</a></li>
+                <li><a href="#">Buy Now!</a></li><li><a href="#" class="join-us">Join Us<span>+</span></a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Total Beverage<br><span>Company Ambition</span></h2>
+                <p>We are meeting you at any point in your day with the drinks you love. From dairy to water to something with a little bit of sparkle and everything in between, our beverage options across 200+ brands bring a little magic to your day or night.</p>
+                <a href="./products.html" id="btn-products">View All products</a>
+            </div>
+            <div class="imgBox">
+                <img src="./images/coca-cola-original-12oz.jpg" alt="coca-cola-o" class="Coke">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./images/coca-cola-original-12oz.jpg" alt="coke-original" id="thumb-1" onclick="imgSlider('./images/coca-cola-original-12oz.jpg');  changeLogo('./logo/coca-cola-logo.svg')"></li>
+            <li><img src="./images/diet-coke-pdp.png" alt="coke-diet" id="thumb-2" onclick="imgSlider('./images/diet-coke-pdp.png'); changeLogo('./logo/coke-dark-logo.svg')"></li>
+            <li><img src="./images/caffeine-free-pdp.png" alt="coke-caffine-free" id="thumb-3" onclick="imgSlider('./images/caffeine-free-pdp.png'); changeLogo('./logo/coke-white-logo.svg')"></li>
+        </ul>
+        <ul class="social-icon">
+            <li><a href="#"><img src="./icons/twitter.png" alt="twitter-icon"></a></li>
+            <li><a href="#"><img src="./icons/facebook.png" alt="facebook-icon"></a></li>
+            <li><a href="#"><img src="./icons/instagram.png" alt="instagram-icon"></a></li>
+        </ul>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
